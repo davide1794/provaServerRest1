@@ -17,7 +17,7 @@ public class Student {
     @Column
     private String lastName;
     @Column
-    private Date birthYear;
+    private String birthYear;
 
     public Long getId() {
         return id;
@@ -43,11 +43,11 @@ public class Student {
         this.lastName = lastName;
     }
 
-    public Date getBirthYear() {
+    public String getBirthYear() {
         return birthYear;
     }
 
-    public void setBirthYear(Date birthYear) {
+    public void setBirthYear(String birthYear) {
         this.birthYear = birthYear;
     }
 }
