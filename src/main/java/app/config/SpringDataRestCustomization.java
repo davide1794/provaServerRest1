@@ -1,6 +1,6 @@
 package app.config;
 
-import org.springframework.core.annotation.Order;
+/*import org.springframework.core.annotation.Order;
 
 import java.io.IOException;
 
@@ -46,3 +46,4 @@ public class SpringDataRestCustomization implements Filter {
     public void destroy() {
     }
 }
+*/
